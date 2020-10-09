@@ -1,0 +1,13 @@
+{
+  "code": "thoughtco.customerdisplay",
+  "name": "Customer Display",
+  "description": "Provides a view of orders ready to be collected by the customer",
+  "version": "v1.0.0",
+  "author": "ryanmitchell",
+  "icon": {
+    "class": "fa fa-users",
+    "backgroundColor": "#111",
+    "color": "#FFF"
+  },
+  "homepage": "https://github.com/ryanmitchell/ti-ext-customerdisplay"
+}
