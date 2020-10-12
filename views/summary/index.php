@@ -51,7 +51,7 @@
 		 <div class="col col-12">
 			<div class="card w-100">
 				<div class="card-body" style="background-color:<?= $order->status_color; ?>">
-					<h2 class="card-title mb-1"><?= sprintf(lang('lang:thoughtco.customerdisplay::default.text_'.$order->status), $order->name, $order->id) ?></h2>
+					<h2 class="card-title mb-1 fa-5x text-center"><?= sprintf(lang('lang:thoughtco.customerdisplay::default.text_'.$order->status), $order->name, $order->id) ?></h2>
 				</div>
 			</div>	
 		 </div>
