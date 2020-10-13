@@ -8,7 +8,7 @@ window.setInterval(function () {
         html.forEach(function (node) {
             if (node.className && node.className == 'page-wrapper') {
                 var newEl, currentEl;
-                if ((newEl = node.querySelector('.form-fields')) && (currentEl = document.querySelector('.form-fields'))) {
+                if ((newEl = node.querySelector('.row')) && (currentEl = document.querySelector('.row'))) {
                     currentEl.innerHTML = newEl.innerHTML;
                 }
             }
