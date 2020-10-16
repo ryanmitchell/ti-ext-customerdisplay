@@ -19,7 +19,7 @@ class Summary extends \Admin\Classes\AdminController
 {
 
     protected $requiredPermissions = 'Thoughtco.CustomerDisplay.*';
-
+    public $layout = 'cds.php';
     public function __construct()
     {
         parent::__construct();
