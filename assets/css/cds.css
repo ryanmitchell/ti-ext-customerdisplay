@@ -17,7 +17,7 @@
 
 .card {
   border: unset;
-  border-bottom: 1px solid #D2D4DF;
+  border-bottom: unset;
 }
 
 .form-fields {
@@ -25,14 +25,14 @@
 }
 
 .page-wrapper {
-	padding-top: 0;
+	padding-left: 12px;
 	top: unset;
 	left: unset;
 	position: static;
 }
 
 .page-wrapper .page-content {
-	padding-top: 0;
+	padding-left: 12px;
 	top: unset;
 	left: unset;
 	position: static;
