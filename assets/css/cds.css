@@ -2,7 +2,7 @@
 @media (min-width: 768px) {
 
 	.navbar-expand .navbar-toggler {
-		display: block;
+		display: none;
 	}
 	
 	.sidebar:not(.show) {
@@ -15,10 +15,37 @@
 
 }
 
+.card {
+  border: unset;
+  border-bottom: unset;
+}
+
+.form-fields {
+  box-sizing: unset;
+}
+
+.page-wrapper {
+	padding-left: 12px;
+	top: unset;
+	left: unset;
+	position: static;
+}
+
 .page-wrapper .page-content {
-	padding-top: 0;
+	padding-left: 12px;
+	top: unset;
+	left: unset;
+	position: static;
 }
 
 .thoughtco_printerbar {
 	display: none !important;
+}
+
+body {
+      background-color: #000000;
+}
+
+.row {
+      width: 100%;
 }
