@@ -101,9 +101,9 @@ class Summary extends \Admin\Classes\AdminController
 		    $query
 				->whereIn('status_id', [$prepStatus, $readyStatus]);
 
-		    if (AdminLocation::getId() !== NULL){
+		    //if (AdminLocation::getId() !== NULL){
 		    	$query->where('location_id', $selectedLocation->location_id);
-		    }
+		    //}
 		})
 		->orderBy('order_date', 'asc')
 		->orderBy('order_time', 'asc')
